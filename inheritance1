@@ -1,0 +1,27 @@
+class parent
+{
+   void display()
+    {
+         System.out.println("this is parent class");
+    }
+   
+}
+ class child extends parent
+  {
+      void greeting()
+      {
+          System.out.println("good morning");
+      }
+  }
+ 
+public class inheritance
+    {
+       public static void main(String[] args)
+        {
+        child myobj = new child();
+        myobj.display();
+        myobj.greeting();
+        }
+}
+
+

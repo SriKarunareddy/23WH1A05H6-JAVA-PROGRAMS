@@ -1,0 +1,27 @@
+class A1
+{
+    static int addition(int a,int b)
+    {
+        int c=a+b;
+          return c;
+    }
+
+}
+class B1 extends A1
+{
+      static int multiplication(int a,int b)
+      {
+          int c=a*b;
+           return c;
+      }
+}
+public class Main
+{
+
+    public static void main(String[] args)
+    {
+        B1 obj =new B1();
+       System.out.println( B1.multiplication(12,25));
+        System.out.println(B1.addition(12,25));
+    }
+}
